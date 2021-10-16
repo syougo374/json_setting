@@ -1,0 +1,83 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontFamily": "Ricty Diminished",
+  "editor.fontSize": 14,
+  "files.autoSave": "afterDelay",
+  "editor.tabSize": 2,
+  "highlight.regexes": {
+      "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+          "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+          "decorations": [
+              {
+                  "overviewRulerColor": "#ffcc00",
+                  "backgroundColor": "#ffcc00",
+                  "color": "#1f1f1f",
+                  "fontWeight": "bold"
+              },
+              {
+                  "backgroundColor": "#ffcc00",
+                  "color": "#1f1f1f"
+              }
+          ]
+      },
+      "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+          "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+          "decorations": [
+              {
+                  "overviewRulerColor": "#cc0000",
+                  "backgroundColor": "#cc0000",
+                  "color": "#1f1f1f",
+                  "fontWeight": "bold"
+              },
+              {
+                  "backgroundColor": "#cc0000",
+                  "color": "#1f1f1f"
+              }
+          ]
+      },
+      "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+          "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+          "decorations": [
+              {
+                  "overviewRulerColor": "#00ccff",
+                  "backgroundColor": "#00ccff",
+                  "color": "#1f1f1f",
+                  "fontWeight": "bold"
+              },
+              {
+                  "backgroundColor": "#00ccff",
+                  "color": "#1f1f1f"
+              }
+          ]
+      },
+      "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+          "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+          "decorations": [
+              {
+                  "overviewRulerColor": "#cc00cc",
+                  "backgroundColor": "#cc00cc",
+                  "color": "#1f1f1f",
+                  "fontWeight": "bold"
+              },
+              {
+                  "backgroundColor": "#cc00cc",
+                  "color": "#1f1f1f"
+              }
+          ]
+      }
+  },
+  "launch": {
+  
+  
+      "configurations": [],
+      "compounds": []
+  },
+  "git.enableSmartCommit": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "timeline.excludeSources": [],
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.confirmDragAndDrop": false,
+  "window.zoomLevel": 3
+}
