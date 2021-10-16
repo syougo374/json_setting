@@ -1,0 +1,58 @@
+{
+
+  "embedded Ruby": {
+    "prefix": "erb",
+    "body": [
+            "<%= $1 %>"
+    ]
+  },
+  "binding.pry": {
+    "prefix": "pry",
+    "body": [
+            "binding.pry"
+    ]
+  },
+  "form_with Ruby": {
+    "prefix": "form_with",
+    "body": [
+            "<%= form_with(model: @user, local: true) do |f| %>"
+    ]
+  },
+  "image_tag": {
+    "prefix": "it",
+    "body": [
+        "<%= image_tag $1 %>"
+    ]
+  },
+  "content_tag Ruby": {
+    "prefix": "content_tag",
+    "body": [
+            "<%= content_tag(:div, value, class: \"#{key}\") %>"
+    ]
+  },
+  "link_to Ruby": {
+    "prefix": "link_to",
+    "body": [
+            "<%= link_to \"$1\", $2_path %>"
+    ]
+  },"error_message": {
+    "prefix": "error_any?",
+    "body": [
+      "<% if $1.errors.any? %>",
+      "\t<div>",
+      "\t\t<ul>",
+      "\t\t\t<% model.errors.full_messages.each do |message| %>",
+      "\t\t\t\t<li><%= message %></li>",
+      "\t\t\t<% end %>",
+      "\t\t</ul>",
+      "\t</div>",
+      "<% end %>"
+      ]
+  },
+  "xxxxx Ruby": {
+    "prefix": "xxxxx",
+    "body": [
+            "yyyyy>"
+    ]
+  }
+}
